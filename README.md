@@ -4,10 +4,10 @@ Contains basic snippets for React components and React-redux components.
 
 | Snippet | Prefix |
 | --- | --- |
-| Basic react component | `tsrc` |
-| Redux container | `tsrrc` |
-
-### Basic react component preview
+| Basic react component | `tsrc→` |
+| Redux container | `tsrrc→` |
+---
+## Basic react component preview
 ```javascript
 import * as React from "react";
 
@@ -20,12 +20,10 @@ class ComponentName extends React.Component<IComponentNameProps, IComponentNameS
         return (<span>Body</span>);
     }
 }
-
 export default ComponentName;
 ```
-
-### Redux container preview
-
+---
+## Redux container preview
 ```javascipt
 import * as React from "react";
 import { connect } from "react-redux";
@@ -42,3 +40,4 @@ class ComponentName extends React.Component<IComponentNameProps, IComponentNameS
 
 export default connect()(ComponentName);
 ```
+---
