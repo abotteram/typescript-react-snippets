@@ -1,17 +1,21 @@
 {
     "name": "typescript-react-snippets",
-	"displayName": "Typescript React/Redux Snippets",
-	"galleryBanner": "./images/typescript-react.png",
+    "displayName": "Typescript React/Redux Snippets",
+    "galleryBanner": "./images/typescript-react.png",
     "publisher": "abotteram",
     "description": "Typescript React Snippets",
-    "version": "0.1.1",
-    "engines": { "vscode": "^0.10.5" },
-    "categories": ["Snippets"], 
-	"license": "SEE LICENSE IN LICENSE.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Xyfi/typescript-react-snippets"
-	},
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^0.10.5"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Xyfi/typescript-react-snippets"
+    },
     "contributes": {
         "snippets": [
             {
@@ -19,5 +23,6 @@
                 "path": "./snippets/typescriptreact.json"
             }
         ]
-    }
+    },
+    "preview": true
 }
