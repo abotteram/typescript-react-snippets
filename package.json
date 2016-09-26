@@ -4,7 +4,7 @@
     "icon": "images/typescript-react.png",
     "publisher": "abotteram",
     "description": "Typescript React Snippets",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "engines": {
         "vscode": "^0.10.5"
     },
@@ -23,6 +23,5 @@
                 "path": "./snippets/typescriptreact.json"
             }
         ]
-    },
-    "preview": true
+    }
 }
