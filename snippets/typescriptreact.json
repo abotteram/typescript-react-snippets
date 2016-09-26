@@ -37,5 +37,31 @@
 			"export default connect()(${name:ComponentName});",
 			""
 		]
+	},
+	"Typescript react-redux component with implemented connect": {
+		"prefix": "tsrrci",
+		"body": [
+			"import * as React from \"react\";",
+			"import \\{ connect \\} from \"react-redux\";",
+			"",
+			"interface I${name:ComponentName}Props \\{\\};",
+			"",
+			"interface I${name:ComponentName}State \\{\\};",
+			"",
+			"class ${name:ComponentName} extends React.Component<I${name:ComponentName}Props, I${name:ComponentName}State> \\{",
+			"	public render(): JSX.Element \\{",
+			"		return (<span>Body</span>);",
+			"	\\}",
+			"\\}",
+			"",
+			"export default connect(",
+			"	(state) => (\\{",
+			"		// Map state to props",
+			"	\\}),",
+			"	\\{",
+			"		// Map dispatch to props",
+			"	\\})(${name:ComponentName});",
+			""
+		]
 	}
 }
