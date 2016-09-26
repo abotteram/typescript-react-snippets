@@ -8,6 +8,10 @@
     "engines": { "vscode": "^0.10.5" },
     "categories": ["Snippets"], 
 	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Xyfi/typescript-react-snippets"
+	},
     "contributes": {
         "snippets": [
             {
