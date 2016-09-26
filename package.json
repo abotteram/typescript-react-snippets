@@ -4,7 +4,7 @@
     "icon": "images/typescript-react.png",
     "publisher": "abotteram",
     "description": "Typescript React Snippets",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "engines": {
         "vscode": "^0.10.5"
     },
@@ -23,5 +23,6 @@
                 "path": "./snippets/typescriptreact.json"
             }
         ]
-    }
+    },
+	"keywords": ["typescript", "react", "redux", "react-redux", "snippets"]
 }
