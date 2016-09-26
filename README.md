@@ -6,7 +6,7 @@ Contains basic snippets for React components and React-redux components.
 | --- | --- |
 | Basic react component | `tsrc→` |
 | Redux container | `tsrrc→` |
-| Redux container with implemented connect | `tsrrci` |
+| Redux container with implemented connect | `tsrrci→` |
 ---
 ## Basic react component preview
 ```javascript
