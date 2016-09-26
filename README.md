@@ -1,7 +1,11 @@
 # Typescript React/Redux Snippets
 
-Contains basic snippets for React components and React-redux components.
+Contains basic snippets for React components and React-redux components. Get up and running quickly!
 
+Would you like me to add a snippet or contribute? [Head over to the repo,](https://github.com/Xyfi/typescript-react-snippets) or [leave a comment on the marketplace page](https://marketplace.visualstudio.com/items?itemName=abotteram.typescript-react-snippets).
+
+---
+## Overview of available snippets
 | Snippet | Prefix |
 | --- | --- |
 | Basic react component | `tsrc→` |
