@@ -1,0 +1,19 @@
+{
+    "name": "typescript-react-snippets",
+	"displayName": "Typescript React/Redux Snippets",
+	"galleryBanner": "./images/typescript-react.png",
+    "publisher": "abotteram",
+    "description": "Typescript React Snippets",
+    "version": "0.1.1",
+    "engines": { "vscode": "^0.10.5" },
+    "categories": ["Snippets"], 
+	"license": "SEE LICENSE IN LICENSE.md",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/typescriptreact.json"
+            }
+        ]
+    }
+}

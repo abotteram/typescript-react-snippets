@@ -1,0 +1,41 @@
+{
+	"Typescript react component": {
+		"prefix": "tsrc",
+		"body": [
+			"import * as React from \"react\";",
+			"",
+			"interface I${name:ComponentName}Props \\{\\};",
+			"",
+			"interface I${name:ComponentName}State \\{\\};",
+			"",
+			"class ${name:ComponentName} extends React.Component<I${name:ComponentName}Props, I${name:ComponentName}State> \\{",
+			"	public render(): JSX.Element \\{",
+			"		return (<span>Body</span>);",
+			"	\\}",
+			"\\}",
+			"",
+			"export default ${name:ComponentName};",
+			""
+		]
+	},
+	"Typescript react-redux component": {
+		"prefix": "tsrrc",
+		"body": [
+			"import * as React from \"react\";",
+			"import \\{ connect \\} from \"react-redux\";",
+			"",
+			"interface I${name:ComponentName}Props \\{\\};",
+			"",
+			"interface I${name:ComponentName}State \\{\\};",
+			"",
+			"class ${name:ComponentName} extends React.Component<I${name:ComponentName}Props, I${name:ComponentName}State> \\{",
+			"	public render(): JSX.Element \\{",
+			"		return (<span>Body</span>);",
+			"	\\}",
+			"\\}",
+			"",
+			"export default connect()(${name:ComponentName});",
+			""
+		]
+	}
+}
